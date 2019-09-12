@@ -1,0 +1,85 @@
+@font-face {
+font-family: 'Helvetica Neue LT Std 57 Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 57 Condensed'), url('../font/HelveticaNeueLTStd-Cn.woff') format('woff');
+}
+header {
+  height: 20em;
+  
+}
+body
+{
+width: 100%;
+}
+
+.access{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Helvetica Neue LT Std 57 Condensed', arial;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  /*width: 25em;*/
+  padding: 0px;
+  margin: 0px;
+  font-size: 2em;
+}
+hr {
+  width: 14em;
+  border: 1px solid black;
+  padding: 0;
+  margin: -18px 0 0 0;
+}
+
+
+.access SPAN
+  {
+    background-color: #d02142;
+    color: #ffffff;
+      }
+  .access p {
+    text-transform: uppercase;
+    padding: 0px;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-size: 2em;
+  }
+  .logo
+  {
+    display:flex;
+  }
+  .souligner{
+    display: flex;
+    padding:0;
+  }
+
+
+
+     .souligner2{
+        padding:0;
+     }
+
+
+    .school {
+display: flex;
+
+  text-align: center;
+  font-family: 'Helvetica Neue LT Std 57 Condensed', arial;
+  text-transform: uppercase;
+  padding-top: 0px;
+  margin-right: 0;
+  font-size: 0.5em;
+/*width: 8.5em;
+height: 1em;*/
+letter-spacing: 3.7em;
+margin-left: 2.5em;
+align-items: center;
+  }
+  .access:hover{
+  transform: scale(1.5);
+  shadow
+  }

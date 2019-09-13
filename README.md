@@ -1,2 +1,2 @@
 # LOGO-Acess--Code-School
-realisation du logo sous inkscape
+Reproduction du logo sous inkscape et HTML/CSS
